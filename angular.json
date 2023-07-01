@@ -91,6 +91,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/Angular_Todo_List//",
+            "name": "Archer",
+            "email": "econarcher2010@gmail.com"
+          }
         }
       }
     }
